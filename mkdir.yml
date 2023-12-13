@@ -6,3 +6,5 @@
   tasks:
     - name: Create ansible directory
       command: mkdir /home/ubuntu/ansible
+    - name: Create another directory
+      command: mkdir /home/ubuntu/ansible/another
